@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Two Thinking Monkeys Contact Page</title>
+
+    <link href="./css/contact.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@100&family=Cinzel&family=EB+Garamond&family=Indie+Flower&family=Playfair+Display&family=Trocchi&display=swap" rel="stylesheet">
+
+  </head>
+
+  <body>
+    
+    <nav class="navbar">
+
+      <div id="small-device-nav">
+
+        <span id="logo-vertnav">
+          <img class="logo-hamburger" src="./assets/images9.JPG" alt="Logo of Two Thinking Monkeys">
+        </span>
+
+        <span id="toggle-nav" onclick="toggleNav()">
+          <i class="fa fa-bars fa-lg"></i>
+        </span>
+
+      </div>
+
+      <ul id="navlist">
+
+          <div class="horznav small-space"></div>
+
+          <img class="horznav logo" src="./assets/images9.JPG" alt="Logo of Two Thinking Monkeys">
+
+          <div class="horznav big-space"></div>
+         
+          <li class="navelem"><a class="hover-underline-animation" href="./index.html">Home</a></li>
+
+          <li class="navelem"><a class="hover-underline-animation" href="./reviews.html">Book Reviews</a></li>
+
+          <li class="navelem">
+            <a href="#" id="talkingeconomics" class="hover-underline-animation dropdown-head">Talking Economics<i class="fas fa-angle-down"></i></a>
+            <div class="mega-menu">
+              <div class="content">
+                <div class="col first">
+                  <section>
+                    <div class="menu-title">Category 1</div>
+                    <div class="mega-links">
+                      <a href="#" class="img-wrapper"><span class="img"><img src="https://picsum.photos/400?random=1" alt="Random Image"/></span></a>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem fugiat illo quam nisi laudantium expedita ut. Expedita ullam unde non dolore excepturi molestiae illo, at, cumque laudantium iusto, consequuntur molestias.</p>
+                    </div>
+                  </section>
+                </div>
+                <div class="col">
+                  <section>
+                    <div class="menu-title">Category 2</div>
+                    <ul class="mega-links">
+                      <li><a href="#" class="menu-item-mega">Item with a long menu name 1</a></li>
+                      <li><a href="#" class="menu-item-mega">Item with a long menu name 2</a></li>
+                      <li><a href="#" class="menu-item-mega">Item with a long menu name 3</a></li>
+                      <li><a href="#" class="menu-item-mega">Item with a long menu name 4</a></li>
+                      <li><a href="#" class="menu-item-mega">Item with a long menu name 5</a></li>
+                    </ul>
+                  </section>
+                </div>
+                <div class="col">
+                  <section>
+                    <div class="menu-title">Category 3</div>
+                    <ul class="mega-links">
+                      <li><a href="#" class="menu-item-mega">Item 1</a></li>
+                      <li><a href="#" class="menu-item-mega">Item 2</a></li>
+                      <li><a href="#" class="menu-item-mega">Item 3</a></li>
+                      <li><a href="#" class="menu-item-mega">Item 4</a></li>
+                      <li><a href="#" class="menu-item-mega">Item 5</a></li>
+                    </ul>
+                  </section>
+                </div>
+                <div class="col">
+                  <section>
+                    <div class="menu-title">Category 4</div>
+                    <ul class="mega-links">
+                      <li><a href="#" class="menu-item-mega">Item 1</a></li>
+                      <li><a href="#" class="menu-item-mega">Item 2</a></li>
+                      <li><a href="#" class="menu-item-mega">Item 3</a></li>
+                      <li><a href="#" class="menu-item-mega">Item 4</a></li>
+                      <li><a href="#" class="menu-item-mega">Item 5</a></li>
+                    </ul>
+                  </section>
+                </div>
+                <div class="col last">
+                  <section>
+                    <div class="menu-title">Category 5</div>
+                    <ul class="mega-links">
+                      <li><a href="#" class="menu-item-mega">Item 1</a></li>
+                      <li><a href="#" class="menu-item-mega">Item 2</a></li>
+                      <li><a href="#" class="menu-item-mega">Item 3</a></li>
+                      <li><a href="#" class="menu-item-mega">Item 4</a></li>
+                      <li><a href="#" class="menu-item-mega">Item 5</a></li>
+                    </ul>
+                  </section>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li class="navelem">
+            <a href="#" id="coding" class="hover-underline-animation dropdown-head">Coding<i class="fas fa-angle-down"></i></a>
+            <ul class="submenu">
+              <li><a href="#" class="menu-item first-item">Item A</a></li>
+              <li><a href="#" class="menu-item">Item B</a></li>
+              <li>
+                  <a href="#" class="menu-item dropdown-head">Item C<i class="fas fa-angle-right"></i></a>
+                  <ul class="submenu second-layer">
+                    <li><a href="#" class="menu-item">Item C.1</a></li>
+                    <li><a href="#" class="menu-item" >Item C.2</a></li>
+                    <li><a href="#" class="menu-item">Item C.3</a></li>
+                    <li><a href="#" class="menu-item">Item C.4</a></li>
+                    <li><a href="#" class="menu-item">Item C.5</a></li>
+                    <li><a href="#" class="menu-item">Item C.6</a></li>
+                  </ul>
+              </li>
+              <li><a href="#" class="menu-item">Item D</a></li>
+            </ul>
+          </li>
+
+          <li class="navelem">
+            <a href="#" id="travel" class="hover-underline-animation dropdown-head">Travel<i class="fas fa-angle-down"></i></a>
+            <div class="mega-menu">
+              <div class="content blog">
+                <div class="col first">
+                  <div class="mega-links">
+                    <a href="#" class="img-wrapper"><span class="img"><img src="https://picsum.photos/400?random=2" alt="Random Image" /></span></a>
+                    <div class="menu-title">Your Title</div>
+                    <p>
+                      I looked at a lot of menus, something is wrong everywhere.
+                      Bootstrap and other libraries are closed when you click outside the area and press Esc.
+                    </p>
+                    <a href="#" class="read-more"><span>read more</span></a>
+                  </div> 
+                </div>
+                <div class="col">
+                  <div class="mega-links">
+                    <a href="#" class="img-wrapper"><span class="img"><img src="https://picsum.photos/400?random=3" alt="Random Image" /></span></a>
+                    <div class="menu-title">Your Title</div>
+                    <p>
+                      I looked at a lot of menus, something is wrong everywhere.
+                      Bootstrap and other libraries are closed when you click outside the area and press Esc.
+                    </p>
+                    <a href="#" class="read-more"><span>read more</span></a>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="mega-links">
+                    <a href="#" class="img-wrapper"><span class="img"><img src="https://picsum.photos/400?random=4" alt="Random Image" /></span></a>
+                    <div class="menu-title">Your Title</div>
+                    <p>
+                      I looked at a lot of menus, something is wrong everywhere.
+                      Bootstrap and other libraries are closed when you click outside the area and press Esc.
+                    </p>
+                    <a href="#" class="read-more"><span>read more</span></a>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="mega-links">
+                    <a href="#" class="img-wrapper"><span class="img"><img src="https://picsum.photos/400?random=5" alt="Random Image" /></span></a>
+                    <div class="menu-title">Your Title</div>
+                    <p>
+                      I looked at a lot of menus, something is wrong everywhere.
+                      Bootstrap and other libraries are closed when you click outside the area and press Esc.
+                    </p>
+                    <a href="#" class="read-more"><span>read more</span></a>
+                  </div>
+                </div>
+                <div class="col last">
+                  <div class="mega-links">
+                    <a href="#" class="img-wrapper"><span class="img"><img src="https://picsum.photos/400?random=6" alt="Random Image" /></span></a>
+                    <div class="menu-title">Your Title</div>
+                    <p>
+                      I looked at a lot of menus, something is wrong everywhere.
+                      Bootstrap and other libraries are closed when you click outside the area and press Esc.
+                    </p>
+                    <a href="#" class="read-more"><span>read more</span></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li class="navelem"><a class="hover-underline-animation" href="./about.html">About</a></li>
+
+          <li class="navelem"><a class="hover-underline-animation" href="./contact.html">Contact</a></li>
+
+          <div class="horznav small-space"></div>
+
+      </ul>
+
+    </nav>
+
+    <div id="not-on-menu">
+
+      <h1 id="title">Contact Us</h1>
+
+      <div id="contact-form-wrapper">
+
+        <p id="contact-form-intro-text">
+
+          We would love to hear from you. 
+          <br>
+          <br>
+          You can reach us at any time through the contact form below. Feel free to use the form also
+          to show your support or share your feedback. This is greatly appreciated.
+          <br>
+          <br>
+          Remember to also follow us on
+          <a class="fab fa-instagram fa-2x" href="https://www.instagram.com/twothinkingmonkeys/" target="_blank"></a>.
+          If it's easier you can always send us a message there.
+
+        </p>
+        
+        <form action="./backend/mail_handler.php" method="post">
+
+          <div id="contact-form-info-fields">
+
+            <div id="contact_field_div">
+              <label for="first_name">First Name</label> 
+              <input type="text" id="first_name" name="first_name"> 
+            </div>
+
+            <div id="contact_field_div">
+              <label for="last_name">Last Name</label> 
+              <input type="text" id="last_name" name="last_name"> 
+            </div>
+
+            <div id="contact_field_div">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-z]{2, 4}$" required>
+            </div>
+
+            <div id="contact_field_div">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" required>
+            </div>
+
+          </div>
+
+          <div id="contact-form-user-message">
+
+            <div id="contact_field_div">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" required></textarea>
+            </div>
+
+          </div>
+
+          <div id="buttons_div">
+            <button id="submit" name="submit" type="submit">Submit</button>
+            <button id="reset" name="reset" type="reset">Reset</button>
+          </div>
+
+        </form>
+
+      </div>      
+
+      <footer>
+        <p class="footer-text">&copy; Two Thinking Monkeys 2022</p>
+      </footer>
+      
+    </div>
+    
+    <script src="./js/contact.js"></script>
+
+  </body>
+
+</html>

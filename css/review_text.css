@@ -1,0 +1,179 @@
+.container {
+    padding: 1rem 7.5rem 0rem 7.5rem;
+}
+
+.other-media-container {
+    float: right;
+    width: 32%;
+    height: auto;
+    padding: 2rem 0rem 0rem 2.2rem;
+}
+
+.review-text-container {
+    width: 100%;
+    height: auto;
+    text-align: justify;
+    font-family: 'Arima', serif;
+    font-size: 1.05rem;
+    font-weight: 300;
+    letter-spacing: 0.04rem;
+    line-height: 2.2rem;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Gill Sans', serif;
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+
+div div p {
+    margin-top: 1.6rem;
+}
+
+.special-p {
+    margin-top: 1.9rem;
+}
+
+footer {
+    padding: 0.1rem 0rem 2rem 0rem;
+    font-family: 'Gill Sans', serif;
+}
+
+/* RESPONSIVE CSS */
+
+@media (min-width: 1600px) {
+
+
+} 
+
+@media (max-width: 1270px) {
+
+    .other-media-container {
+        width: 37%;
+        height: auto;
+    }    
+
+} 
+
+@media (max-width: 1170px) {
+
+    .space {
+        padding: 0em 5em;
+    }
+
+} 
+
+@media (max-width: 1130px) {
+
+    .other-media-container {
+        width: 43%;
+        height: auto;
+    }    
+    
+} 
+
+@media (max-width: 1000px) {
+
+    .other-media-container {
+        width: 44%;
+        height: auto;
+    }    
+    
+    .container {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+} 
+
+@media (max-width: 970px) {
+
+    .space {
+        padding: 0em 1.5em;
+    }
+
+} 
+
+@media (max-width: 870px) {
+
+    .container {
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .other-media-container {
+        width: 70%;
+        height: auto;
+        padding: 1rem 0rem;
+        margin: 0 auto;
+    }    
+    
+} 
+
+@media ( max-width: 750px ) { 
+
+    .navbar {
+        padding: 1.6em;
+    }
+
+    #navlist {
+        flex-direction: column;
+        display: none;
+    }
+
+    #toggle-nav {
+        display: block;
+        color: white;
+    }
+
+    .container {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+}
+
+@media ( max-width: 650px ) { 
+
+    .other-media-container {
+        width: 75%;
+        height: auto;
+    }    
+
+}
+
+@media ( max-width: 550px ) { 
+
+    .other-media-container {
+        width: 84%;
+        height: auto;
+    }    
+
+}
+
+@media ( max-width: 500px ) { 
+
+     .other-media-container {
+       width: 60%;
+        height: auto;
+    }    
+    
+    .container {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    
+}
+
+@media ( max-width: 400px ) { 
+
+     .other-media-container {
+        width: 32%;
+        height: auto;
+        margin-left: -0.5rem;
+        padding-left: -0.5rem;
+    }    
+    
+}

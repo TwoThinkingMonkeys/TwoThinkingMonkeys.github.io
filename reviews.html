@@ -1,0 +1,1086 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Two Thinking Monkeys Book Reviews</title>
+
+    <link href="/css/reviews.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@100&family=Cinzel&family=EB+Garamond&family=Indie+Flower&family=Playfair+Display&family=Trocchi&display=swap" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar">
+
+      <span id="toggle-nav" onclick="toggleNav()">
+          <i class="fa fa-bars"></i>
+      </span>
+
+      <ul id="navlist">
+          <div class="space"></div>
+          <li class="navelem"><a href="./index.html">Home</a></li>
+          <li class="navelem"><a href="./reviews.html">Book Reviews</a></li>
+          <li class="navelem"><a href="#about">About</a></li>
+          <li class="navelem"><a href="#contact">Contact</a></li>
+          <div class="space"></div>
+      </ul>
+
+    </nav>
+
+    <div class="filter-container lang">
+      <p class="filter-instruction">
+        Select the language / 
+        Seleziona la lingua / 
+        Wählen Sie die Sprache
+      </p>
+      <ul class="filter">
+        <li class="list-lang active" data-filter="english">English</li>
+        <li class="list-lang" data-filter="italian">Italiano</li>
+        <li class="list-lang" data-filter="german">Deutsch</li>
+      </ul>
+    </div>
+
+    <div class="filter-container lit">
+      <p class="filter-instruction">
+        Select the genre /
+        Seleziona il genere /
+        Wählen Sie das Genre
+      </p>
+      <ul class="filter english">
+        <li class="list-lit active" data-filter="all">All</li>
+        <li class="list-lit" data-filter="classics">Classics</li>
+        <li class="list-lit" data-filter="biography">Biography</li>
+        <li class="list-lit" data-filter="travel">Travel</li>
+        <li class="list-lit" data-filter="science-fiction">Science Fiction</li>
+        <li class="list-lit" data-filter="literary-fiction">Literary Fiction</li>
+        <li class="list-lit" data-filter="reportage">Reportage</li>
+        <li class="list-lit" data-filter="italian-literature">Italian Literature</li>
+        <li class="list-lit" data-filter="japanese-literature">Japanese Literature</li>
+        <li class="list-lit" data-filter="russian-literature">Russian Literature</li>
+      </ul>
+      <ul class="filter italian">
+        <li class="list-lit" data-filter="all">Tutti</li>
+        <li class="list-lit" data-filter="classics">Classici</li>
+        <li class="list-lit" data-filter="biography">Biografia</li>
+        <li class="list-lit" data-filter="travel">Viaggi</li>
+        <li class="list-lit" data-filter="science-fiction">Fantascienza</li>
+        <li class="list-lit" data-filter="literary-fiction">Narrativa letteraria</li>
+        <li class="list-lit" data-filter="reportage">Reportage</li>
+        <li class="list-lit" data-filter="italian-literature">Letteratura Italiana</li>
+        <li class="list-lit" data-filter="japanese-literature">Letteratura Giapponese</li>
+        <li class="list-lit" data-filter="russian-literature">Letteratura Russa</li>
+      </ul>
+      <ul class="filter german">
+        <li class="list-lit" data-filter="all">Alle</li>
+        <li class="list-lit" data-filter="travel">Reisen</li>
+      </ul>
+    </div>
+
+    <div class="imgs-container">
+
+      <!-- Siddhartha EN -->
+      <div class="img-grid-item">
+        <div class="image-part">
+          <a href="./review_text/Herman Hesse/EN/Siddhartha.html" class="img-wrapper">
+            <span class="img all english classics">
+              <img src="./assets/books/hesse_siddhartha.jpg" alt="Siddhartha - book cover"/>
+            </span>
+          </a>
+        </div>
+        <div class="review-text-part">
+          <div class="menu-title">Siddhartha - Hermann Hesse</div>
+          <p>
+            Who is Siddhartha? What is he looking for? <br> <br>
+            Most of Hermann Hesse’s protagonists are “suchenden”, people who 
+            search and look for spiritual fulfilment. Siddhartha is the son of 
+            a wealthy ...
+          </p>
+          <a href="./review_text/Herman Hesse/EN/Siddhartha.html" class="read-more"><span>read more</span></a>
+        </div>
+      </div>
+
+      <!-- In Order to Live -->
+      <div class="img-grid-item">
+        <div class="image-part">
+          <a href="./review_text/Yeonmi Park/EN/In Order to Live.html" class="img-wrapper">
+            <span class="img english all biography">
+              <img src="./assets/books/yeonmi_park.jpg" alt="In Order to Live - book photo"/>
+            </span>
+          </a>
+        </div>
+        <div class="review-text-part">
+          <div class="menu-title">In Order to Live - Yeonmi Park</div>
+          <p>
+            Yeonmi is a North Korean defector and human rights activist who in 2007,
+            at the age of 13, managed to flee to South Korea with her mother. <br> <br>
+            In this harrowing book, she narrates her long journey to ...
+          </p>
+          <a href="./review_text/Yeonmi Park/EN/In Order to Live.html" class="read-more"><span>read more</span></a>
+        </div>
+      </div>
+
+      <!-- Kafka on the shore -->
+      <div class="img-grid-item">
+        <div class="image-part">
+          <a href="./review_text/Haruki Murakami/EN/Kafka on the Shore.html" class="img-wrapper">
+            <span class="img english all japanese-literature">
+              <img src="./assets/books/murakami_kafka.jpg" alt="Kafka on the Shore - book cover"/>
+            </span>
+          </a>
+        </div>
+        <div class="review-text-part">
+          <div class="menu-title">Kafka on the Shore - Haruki Murakami</div>
+          <p>
+            Are you ready to daydream? <br> <br>
+            The book’s cover is black with a human red 
+            face juxtaposing the figure of a black cat. It represents the interconnected
+            lives of the two main characters, a 15-year-old boy who ...
+          </p>
+          <a href="./review_text/Haruki Murakami/EN/Kafka on the Shore.html" class="read-more"><span>read more</span></a>
+        </div>
+     </div>
+
+
+      <!-- Kafka sulla spiaggia -->
+      <div class="img-grid-item">
+        <div class="image-part">
+          <a href="./review_text/Haruki Murakami/IT/Kafka sulla spiaggia.html" class="img-wrapper">
+            <span class="img italian all japanese-literature">
+              <img src="./assets/books/murakami_kafka.jpg" alt="Kafka sulla spiaggia - copertina del libro"/>
+            </span>
+          </a>
+        </div>
+        <div class="review-text-part">
+          <div class="menu-title">Kafka sulla spiaggia - Haruki Murakami</div>
+          <p>
+            Siete pronti a sognare ad occhi aperti? <br> <br>
+            Questo libro si presenta con una copertina nera da cui emerge un profilo 
+            rosso umano accostato alla figura di un gatto nero. È la rappresentazione 
+            delle ...
+          </p>
+          <a href="./review_text/Haruki Murakami/IT/Kafka sulla spiaggia.html" class="read-more"><span>continua a leggere</span></a>
+        </div>
+      </div>
+
+      <!-- No Longer Human -->
+      <div class="img-grid-item">
+        <div class="image-part">
+          <a href="./review_text/Osamu Dazai/EN/No longer human.html" class="img-wrapper">
+            <span class="img all english japanese-literature">
+              <img src="./assets/books/Dazai_nolongerhuman.jpg" alt="No Longer Human - book cover"/>
+            </span>
+          </a>
+        </div>
+        <div class="review-text-part">
+          <div class="menu-title">No Longer Human - Osamu Dazai</div>
+          <p>
+            Osamu Dazai wrote the book “No Longer Human” the same year he committed suicide. <br> <br>
+            Oba Yozo, the book’s main character, narrates the unfolding of his life with a cold 
+            detachment from the ...
+          </p>
+          <a href="./review_text/Osamu Dazai/EN/No longer human.html" class="read-more"><span>read more</span></a>
+        </div>
+      </div>
+
+      <!-- Lo squalificato -->
+      <div class="img-grid-item">
+        <div class="image-part">
+          <a href="./review_text/Osamu Dazai/IT/Lo squalificato.html" class="img-wrapper">
+            <span class="img all italian japanese-literature">
+              <img src="./assets/books/Dazai_nolongerhuman.jpg" alt="Lo squalificato - copertina del libro"/>
+            </span>
+          </a>
+        </div>
+        <div class="review-text-part">
+          <div class="menu-title">Lo squalificato - Osamu Dazai</div>
+          <p>
+            Osamu Dazai scrisse questo libro pochi mesi prima di suicidarsi. <br> <br>
+            Il protagonista Oba Yozo racconta in prima persona la sua vita con estrema 
+            freddezza e distacco dalle tragedie e i problemi latenti che ...
+          </p>
+          <a href="./review_text/Osamu Dazai/IT/Lo squalificato.html" class="read-more"><span>continua a leggere</span></a>
+        </div>
+      </div>
+
+      <!-- Animal Farm -->
+      <div class="img-grid-item">
+        <div class="image-part">
+          <a href="./review_text/George Orwell/EN/Animal Farm.html" class="img-wrapper">
+            <span class="img all english classics">
+              <img src="./assets/books/George Orwel - Animal Famr.jpeg" alt="Animal Farm - book cover"/>
+            </span>
+          </a>
+        </div>
+        <div class="review-text-part">
+          <div class="menu-title">Animal Farm - George Orwell</div>
+          <p>
+            “All animals are equal. But some animals are more equal than others”. 
+            Animal Farm is a genius satire that never grows old: the oppression that 
+            motivates to look for freedom and equality turns then into a corrupted power
+            that manipulates ...
+          </p>
+          <a href="./review_text/George Orwell/EN/Animal Farm.html" class="read-more"><span>read more</span></a>
+        </div>
+      </div>
+
+      <!-- La fattoria degli animali -->
+      <div class="img-grid-item">
+        <div class="image-part">
+          <a href="./review_text/George Orwell/IT/La fattoria degli animali.html" class="img-wrapper">
+            <span class="img all italian classics">
+              <img src="./assets/books/George Orwel - Animal Famr.jpeg" alt="La fattoria degli animali - copertina del libro"/>
+            </span>
+          </a>
+        </div>
+        <div class="review-text-part">
+          <div class="menu-title">La fattoria degli animali - George Orwell</div>
+          <p>
+            "Tutti gli animali sono uguali, ma alcuni sono più uguali degli altri". 
+            La Fattoria degli Animali è una satira geniale il cui messaggio non tramonta mai:
+            il sopruso che prima abilita e spinge alla ricerca della libertà e uguaglianza,
+            poi ...
+          </p>
+          <a href="./review_text/George Orwell/IT/La fattoria degli animali.html" class="read-more"><span>continua a leggere</span></a>
+        </div>
+      </div>
+
+      <!-- Notes from Underground -->
+      <div class="img-grid-item">
+        <div class="image-part">
+          <a href="./review_text/Fyodor Dostoevsky/EN/Notes from Underground.html" class="img-wrapper">
+            <span class="img all english classics russian-literature">
+              <img src="./assets/books/Dostoevsky - Memorie.jpg" alt="Notes from Underground - book cover"/>
+            </span>
+          </a>
+        </div>
+        <div class="review-text-part">
+          <div class="menu-title">Notes from Underground - Fyodor Dostoevsky</div>
+          <p>
+            “I am a sick man.... I am a spiteful man. I am an unattractive man. 
+            I believe my liver is diseased. However, I know nothing at all about my 
+            disease, and do not know for certain what ails me.” <br> <br>
+            
+          </p>
+          <a href="./review_text/Fyodor Dostoevsky/EN/Notes from Underground.html" class="read-more"><span>read more</span></a>
+        </div>
+      </div>
+
+      <!-- Memorie dal sottosuolo -->
+      <div class="img-grid-item">
+        <div class="image-part">
+          <a href="./review_text/Fyodor Dostoevsky/IT/Memorie dal sottosuolo.html" class="img-wrapper">
+            <span class="img all italian classics russian-literature">
+              <img src="./assets/books/Dostoevsky - Memorie.jpg" alt="Memorie dal sottosuolo - copertina del libro"/>
+            </span>
+          </a>
+        </div>
+        <div class="review-text-part">
+          <div class="menu-title">Memorie dal sottosuolo - Fyodor Dostoevsky</div>
+          <p>
+            “Io sono un uomo malato.. astioso. Sono un uomo malvagio. Credo di 
+            essere malato di fegato. Del resto non ne so un accidente delle mia
+            malattia e non so neppure esattamente cosa mi faccia male”. <br> <br>
+          </p>
+          <a href="./review_text/Fyodor Dostoevsky/IT/Memorie dal sottosuolo.html" class="read-more"><span>continua a leggere</span></a>
+        </div>
+      </div>
+  
+      <!-- A Fortune-Teller told me -->
+      <div class="img-grid-item">
+        <div class="image-part">
+          <a href="./review_text/Tiziano Terzani/EN/A Fortune-Teller told me: earthbound travels in the Far East.html" class="img-wrapper">
+            <span class="img english all reportage travel biography">
+              <img src="./assets/books/Tiziano Terzani - un indovino mi disse.jpg" alt="A Fortune-Teller told me - book cover"/>
+            </span>
+          </a>
+        </div>
+        <div class="review-text-part">
+          <div class="menu-title">A Fortune-Teller told me - Tiziano Terzani</div>
+          <p>
+            “Beware! You run a grave risk of dying in 1993. You mustn’t fly that year. Don’t fly, not even once.” <br> <br>
+            In 1976, a Hongkonger fortune teller said these words to the journalist Tiziano ...
+          </p>
+          <a href="./review_text/Tiziano Terzani/EN/A Fortune-Teller told me: earthbound travels in the Far East.html" class="read-more"><span>read more</span></a>
+        </div>
+      </div>
+
+      <!-- Un indovino mi disse -->
+      <div class="img-grid-item">
+        <div class="image-part">
+          <a href="./review_text/Tiziano Terzani/IT/Un indovino mi disse.html" class="img-wrapper">
+            <span class="img italian all reportage travel biography">
+              <img src="./assets/books/Tiziano Terzani - un indovino mi disse.jpg" alt="Un indovino mi disse - copertina del libro"/>
+            </span>
+          </a>
+        </div>
+        <div class="review-text-part">
+          <div class="menu-title">Un indovino mi disse - Tiziano Terzani</div>
+          <p>
+            “Attento! Nel 1993 corri un gran rischio di morire. In quell’anno non volare. Non volare mai.” <br> <br>
+            Un indovino cinese di Hong Kong predisse a Terzani questa maledizione nell’anno 1976.
+            Nonostante il ...
+          </p>
+          <a href="./review_text/Tiziano Terzani/IT/Un indovino mi disse.html" class="read-more"><span>continua a leggere</span></a>
+        </div>
+      </div>
+
+      <!-- Cosmicomics -->
+      <div class="img-grid-item">
+        <div class="image-part">
+          <a href="./review_text/Italo Calvino/EN/Cosmicomics.html" class="img-wrapper">
+            <span class="img english all science-fiction italian-literature">
+              <img src="./assets/books/Calvino_Cosmicomiche.jpeg" alt="Cosmicomics - book cover"/>
+            </span>
+          </a>
+        </div>
+        <div class="review-text-part">
+          <div class="menu-title">Cosmicomics - Italo Calvino</div>
+          <p>
+            How mind-blowing would it be to have witnessed all the events 
+            that unfolded throughout the history of the universe? What if 
+            someone was really there and could narrate us short memories about
+            life during the creation and expansion of ...
+          </p>
+          <a href="./review_text/Italo Calvino/EN/Cosmicomics.html" class="read-more"><span>read more</span></a>
+        </div>
+      </div>
+
+      <!-- Cosmicomiche -->
+      <div class="img-grid-item">
+        <div class="image-part">
+          <a href="./review_text/Italo Calvino/IT/Le cosmicomiche.html" class="img-wrapper">
+            <span class="img italian all science-fiction italian-literature">
+              <img src="./assets/books/Calvino_Cosmicomiche.jpeg" alt="Le cosmicomiche - copertina del libro"/>
+            </span>
+          </a>
+        </div>
+        <div class="review-text-part">
+          <div class="menu-title">Le cosmicomiche - Italo Calvino</div>
+          <p>
+            Quanto sarebbe straordinario aver potuto assistere a tutti gli eventi
+            della storia dell'universo? E se un essere eterno potesse farci vivere
+            quei momenti attraverso brevi ricordi della sua vita durante la creazione
+            e l'espansione ...
+          </p>
+          <a href="./review_text/Italo Calvino/IT/Le cosmicomiche.html" class="read-more"><span>continua a leggere</span></a>
+        </div>
+      </div>
+
+      <!-- I am off then -->
+      <div class="img-grid-item">
+        <div class="image-part">
+          <a href="./review_text/Hape Kerkeling/EN/I am off then.html" class="img-wrapper">
+            <span class="img english all travel">
+              <img src="./assets/books/Ich bin dann mal weg - Hape.jpg" alt="I am off then - book cover"/>
+            </span>
+          </a>
+        </div>
+        <div class="review-text-part">
+          <div class="menu-title">I am off then - Hape Kerkeling</div>
+          <p>
+            Have you ever felt the need to leave everything and everyone 
+            behind to immerse yourself in nature, and in the search of your true self? <br> <br>
+            The famous German comedian Hape Kerkeling found ...
+          </p>
+          <a href="./review_text/Hape Kerkeling/EN/I am off then.html" class="read-more"><span>read more</span></a>
+        </div>
+      </div>
+
+      <!-- Ich bin dann mal weg -->
+      <div class="img-grid-item">
+        <div class="image-part">
+          <a href="./review_text/Hape Kerkeling/DE/Ich bin dann mal weg.html" class="img-wrapper">
+            <span class="img german all travel">
+              <img src="./assets/books/Ich bin dann mal weg - Hape.jpg" alt="Ich bin dann mal weg - Buchdeckel"/>
+            </span>
+          </a>
+        </div>
+        <div class="review-text-part">
+          <div class="menu-title">Ich bin dann mal weg - Hape Kerkeling</div>
+          <p>
+            Hast du jemals daran gedacht, den Jakobsweg zu wandern? 
+            Möchtest du dich von einer lustigen und manchmal auch tiefgründigen Reise treiben lassen? <br> <br>
+            “Ich bin dann mal weg” ist ...
+          </p>
+          <a href="./review_text/Hape Kerkeling/DE/Ich bin dann mal weg.html" class="read-more"><span>weiterlesen</span></a>
+        </div>
+      </div>
+
+      <!-- I Am Malala -->
+      <div class="img-grid-item">
+        <div class="image-part">
+          <a href="./review_text/Malala Yousafzai/EN/I am Malala.html" class="img-wrapper">
+            <span class="img english all biography">
+              <img src="./assets/books/I am Malala.jpeg" alt="I am Malala - book cover"/>
+            </span>
+          </a>
+        </div>
+        <div class="review-text-part">
+          <div class="menu-title">I am Malala - Malala Yousafzai</div>
+          <p>
+            The girl who stood up for education and was shot by the Taliban. <br> <br>
+            Malala co-wrote this book with Christina Lamb in 2013 as a testimony of the
+            tragedy that the Taliban brought to ...
+          </p>
+          <a href="./review_text/Malala Yousafzai/EN/I am Malala.html" class="read-more"><span>read more</span></a>
+        </div>
+      </div>
+
+      <!-- Io sono Malala -->
+      <div class="img-grid-item">
+        <div class="image-part">
+          <a href="./review_text/Malala Yousafzai/IT/Io sono Malala.html" class="img-wrapper">
+            <span class="img italian all biography">
+              <img src="./assets/books/I am Malala.jpeg" alt="Io sono Malala - copertina del libro"/>
+            </span>
+          </a>
+        </div>
+        <div class="review-text-part">
+          <div class="menu-title">Io sono Malala - Malala Yousafzai</div>
+          <p>
+            La mia battaglia per la libertà e l’istruzione delle donne. <br> <br>
+            Questo libro è l’autobiografia di Malala Yousafzai, una delle tante 
+            giovani donne pachistane la cui quotidianità è stata profondamente ...
+          </p>
+          <a href="./review_text/Malala Yousafzai/IT/Io sono Malala.html" class="read-more"><span>continua a leggere</span></a>
+        </div>
+      </div>
+
+      <!-- The kite runner -->
+      <div class="img-grid-item">
+        <div class="image-part">
+          <a href="./review_text/Khaled Hosseini/EN/The kite runner.html" class="img-wrapper">
+            <span class="img english all classics">
+              <img src="./assets/books/Khaled Hosseini - Il cacciatore di aquiloni.jpg" alt="The Kite Runner - book cover"/>
+            </span>
+          </a>
+        </div>
+        <div class="review-text-part">
+          <div class="menu-title">The Kite Runner - Khaled Hosseini</div>
+          <p>
+            “It was only a smile, nothing more. It didn't make everything all right. 
+            It didn't make ANYTHING all right. Only a smile. A tiny thing. A leaf 
+            in the woods, shaking in the wake of a startled bird's flight. But I'll take it.
+            With open ...
+          </p>
+          <a href="./review_text/Khaled Hosseini/EN/The kite runner.html" class="read-more"><span>read more</span></a>
+        </div>
+      </div>
+
+      <!-- Il cacciatore di aquiloni -->
+      <div class="img-grid-item">
+        <div class="image-part">
+          <a href="./review_text/Khaled Hosseini/IT/Il cacciatore di aquiloni.html" class="img-wrapper">
+            <span class="img italian all classics">
+              <img src="./assets/books/Khaled Hosseini - Il cacciatore di aquiloni.jpg" alt="Il cacciatore di aquiloni - copertina del libro"/>
+            </span>
+          </a>
+        </div>
+        <div class="review-text-part">
+          <div class="menu-title">Il cacciatore di aquiloni - Khaled Hosseini</div>
+          <p>
+            “Era solo un sorriso, niente di più. Le cose rimanevano quelle che erano.
+            Solo un sorriso. Una piccola cosa. Una fogliolina in un bosco che trema
+            al battito d’ali di un uccello spaventato. Ma io l’ho accolto. A braccia aperte.
+            Perché la primavera ...
+          </p>
+          <a href="./review_text/Khaled Hosseini/IT/Il cacciatore di aquiloni.html" class="read-more"><span>continua a leggere</span></a>
+        </div>
+      </div>
+      
+      <!-- Putin's Russia -->
+      <div class="img-grid-item">
+        <div class="image-part">
+          <a href="./review_text/Anna Politkovskaja/EN/Putin's Russia.html" class="img-wrapper">
+            <span class="img english all reportage">
+              <img src="./assets/books/La Russia di Putin - Anna P.jpg" alt="Putin's Russia - book cover"/>
+            </span>
+          </a>
+        </div>
+        <div class="review-text-part">
+          <div class="menu-title">Putin's Russia - Anna Politkovskaja</div>
+          <p>
+            "Putin, having accidentally received enormous power into his hands, administered 
+            it to catastrophic consequences for Russia. And I do not like him, because he does
+            not like people. He can't stand us. He despises us. He ...
+          </p>
+          <a href="./review_text/Anna Politkovskaja/EN/Putin's Russia.html" class="read-more"><span>read more</span></a>
+        </div>
+      </div>
+
+      <!-- La Russia di Putin -->
+      <div class="img-grid-item">
+        <div class="image-part">
+          <a href="./review_text/Anna Politkovskaja/IT/La Russia di Putin.html" class="img-wrapper">
+            <span class="img italian all reportage">
+              <img src="./assets/books/La Russia di Putin - Anna P.jpg" alt="La Russia di Putin - copertina del libro"/>
+            </span>
+          </a>
+        </div>
+        <div class="review-text-part">
+          <div class="menu-title">La Russia di Putin - Anna Politkovskaja</div>
+          <p>
+            “Siamo solo un mezzo, per lui. Un mezzo per raggiungere il potere personale. 
+            Per questo dispone di noi come vuole. Può giocare con noi, se ne ha voglia. 
+            Può distruggerci, se lo desidera. Noi non siamo niente. Lui, finito dov’è 
+            per ...
+          </p>
+          <a href="./review_text/Anna Politkovskaja/IT/La Russia di Putin.html" class="read-more"><span>continua a leggere</span></a>
+        </div>
+      </div>
+
+      <!-- To Paradise -->
+      <div class="img-grid-item">
+        <div class="image-part">
+          <a href="./review_text/Hanya Yanagihara/EN/To Paradise.html" class="img-wrapper">
+            <span class="img english all literary-fiction">
+              <img src="./assets/books/Hanya Yanagihara - To paradise.jpg" alt="To Paradise - book cover"/>
+            </span>
+          </a>
+        </div>
+        <div class="review-text-part">
+          <div class="menu-title">To Paradise - Hanya Yanagihara</div>
+          <p>
+            The book is a collection of three stories in three different centuries linked together by an 
+            invisible string that leads to paradise. <br> <br>
+            The first story takes place in 1893 in ...
+          </p>
+          <a href="./review_text/Hanya Yanagihara/EN/To Paradise.html" class="read-more"><span>read more</span></a>
+        </div>
+      </div>
+
+      <!-- Verso il paradiso -->
+      <div class="img-grid-item">
+        <div class="image-part">
+          <a href="./review_text/Hanya Yanagihara/IT/Verso il paradiso.html" class="img-wrapper">
+            <span class="img italian all literary-fiction">
+              <img src="./assets/books/Hanya Yanagihara - To paradise.jpg" alt="Verso il paradiso - copertina del libro"/>
+            </span>
+          </a>
+        </div>
+        <div class="review-text-part">
+          <div class="menu-title">Verso il paradiso - Hanya Yanagihara</div>
+          <p>
+            Una raccolta di tre storie in tre epoche diverse collegate da un filo 
+            invisibile che conduce verso il paradiso. <br> <br>
+            Si inizia nel 1893. La storia è ambientata a NY city e vede come protagonista ... 
+          </p>
+          <a href="./review_text/Hanya Yanagihara/IT/Verso il paradiso.html" class="read-more"><span>continua a leggere</span></a>
+        </div>
+      </div>
+      
+      <!-- The Tartar Steppe -->
+      <div class="img-grid-item">
+        <div class="image-part">
+          <a href="./review_text/Dino Buzzati/EN/The Tartar Steppe.html" class="img-wrapper">
+            <span class="img english all literary-fiction italian-literature">
+              <img src="./assets/books/Dino Buzzati - Il deserto dei Tartari.jpg" alt="The Tartar Steppe - book cover"/>
+            </span>
+          </a>
+        </div>
+        <div class="review-text-part">
+          <div class="menu-title">The Tartar Steppe - Dino Buzzati</div>
+          <p>
+            Gazing at the horizon, lieutenant Drogo waits for the enemy to appear. 
+            Every day is a good day for getting ready, every signal is a war promise, 
+            and every legend whispered in the dark corridors of the fortress points 
+            to the imminent arrival of ...
+          </p>
+          <a href="./review_text/Dino Buzzati/EN/The Tartar Steppe.html" class="read-more"><span>read more</span></a>
+        </div>
+      </div>
+
+      <!-- Il deserto dei Tartari -->
+      <div class="img-grid-item">
+        <div class="image-part">
+          <a href="./review_text/Dino Buzzati/IT/Il deserto dei tartari.html" class="img-wrapper">
+            <span class="img italian all literary-fiction italian-literature">
+              <img src="./assets/books/Dino Buzzati - Il deserto dei Tartari.jpg" alt="Il deserto dei tartari - copertina del libro"/>
+            </span>
+          </a>
+        </div>
+        <div class="review-text-part">
+          <div class="menu-title">Il deserto dei Tartari - Dino Buzzati</div>
+          <p>
+            Con lo sguardo fisso all’orizzonte, il tenente Drogo attende con trepidazione l’arrivo del nemico. 
+            Ogni giorno è un giorno di preparazione alla battaglia, ogni segnale sembra promettere azione, ogni
+            leggenda ...
+          </p>
+          <a href="./review_text/Dino Buzzati/IT/Il deserto dei tartari.html" class="read-more"><span>continua a leggere</span></a>
+        </div>
+      </div>
+      
+      
+      <!-- Little life -->
+      <div class="img-grid-item">
+        <div class="image-part">
+          <a href="./review_text/Hanya Yanagihara/EN/Little Life.html" class="img-wrapper">
+            <span class="img english all literary-fiction">
+              <img src="./assets/books/Hanya Yanagihara - a little life.jpg" alt="Little life - book cover"/>
+            </span>
+          </a>
+        </div>
+        <div class="review-text-part">
+          <div class="menu-title">Little life - Hanya Yanagihara</div>
+          <p>
+            Four young men become friends during college and their lives intertwine until their last days. 
+            The book follows them through their adventures and friendship. They are very close yet separated
+            by huge unspoken secrets. Jude, Willem, Malcolm and ...
+          </p>
+          <a href="./review_text/Hanya Yanagihara/EN/Little Life.html" class="read-more"><span>read more</span></a>
+        </div>
+      </div>
+
+      <!-- Una vita come tante -->
+      <div class="img-grid-item">
+        <div class="image-part">
+          <a href="./review_text/Hanya Yanagihara/IT/Una vita come tante.html" class="img-wrapper">
+            <span class="img italian all literary-fiction">
+              <img src="./assets/books/Hanya Yanagihara - a little life.jpg" alt="Una vita come tante - copertina del libro"/>
+            </span>
+          </a>
+        </div>
+        <div class="review-text-part">
+          <div class="menu-title">Una vita come tante - Hanya Yanagihara</div>
+          <p>
+            Quattro vite di quattro ragazzi si incrociano al college e si intrecciano fino all’ultimo giorno della loro esistenza. 
+            Il libro racconta le loro storie e l’avventura di questa amicizia profonda, fatta di segreti e accettazioni ...
+          </p>
+          <a href="./review_text/Hanya Yanagihara/IT/Una vita come tante.html" class="read-more"><span>continua a leggere</span></a>
+        </div>
+      </div>
+      
+      <!-- Confessions of a mask -->
+      <div class="img-grid-item">
+        <div class="image-part">
+          <a href="./review_text/Yukio Mishima/EN/Confessions of a mask.html" class="img-wrapper">
+            <span class="img english all japanese-literature literary-fiction">
+              <img src="./assets/books/Mishima - Confessioni di una maschera.jpg" alt="Confessions of a mask - book cover"/>
+            </span>
+          </a>
+        </div>
+        <div class="review-text-part">
+          <div class="menu-title">Confessions of a mask - Yukio Mishima</div>
+          <p>
+            Everyone says that life is a stage. But most people do not seem to become obsessed with the idea, 
+            at any rate, not as early as I did. By the end of childhood, I was already firmly convinced that 
+            it was so and that I was to play my part on the stage without once ever revealing my true ...
+          </p>
+          <a href="./review_text/Yukio Mishima/EN/Confessions of a mask.html" class="read-more"><span>read more</span></a>
+        </div>
+      </div>
+
+      <!-- Confessioni di una maschera -->
+      <div class="img-grid-item">
+        <div class="image-part">
+          <a href="./review_text/Yukio Mishima/IT/Confessioni di una maschera.html" class="img-wrapper">
+            <span class="img italian all japanese-literature literary-fiction">
+              <img src="./assets/books/Mishima - Confessioni di una maschera.jpg" alt="Confessioni di una maschera - copertina del libro"/>
+            </span>
+          </a>
+        </div>
+        <div class="review-text-part">
+          <div class="menu-title">Confessioni di una maschera - Yukio Mishima</div>
+          <p>
+            La vita è un palcoscenico, dicono tutti. Ma non sembra che la maggioranza sia ossessionata da quest’idea, o perlomeno 
+            non sembra che lo sia in una fase precoce come successe a me. Addirittura alla fine dell’infanzia ero 
+            fermamente convito che quella massima corrispondesse alla ...
+          </p>
+          <a href="./review_text/Yukio Mishima/IT/Confessioni di una maschera.html" class="read-more"><span>continua a leggere</span></a>
+        </div>
+      </div>
+      
+      <!-- A Russian diary -->
+      <div class="img-grid-item">
+        <div class="image-part">
+          <a href="./review_text/Anna Politkovskaja/EN/A Russian diary.html" class="img-wrapper">
+            <span class="img english all reportage">
+              <img src="./assets/books/Diariorusso_Anna.jpg" alt="A Russian diary - book cover"/>
+            </span>
+          </a>
+        </div>
+        <div class="review-text-part">
+          <div class="menu-title">A Russian diary - Anna Politkovskaja</div>
+          <p>
+            A Russian Diary is a valuable testimony of political events occurred in Russia from the 8th of December
+            2003 to the 31st of August 2005. Anna Politkovskaja, writer and journalist of contemporary Russian 
+            history, documents how Putin and ...
+          </p>
+          <a href="./review_text/Anna Politkovskaja/EN/A Russian diary.html" class="read-more"><span>read more</span></a>
+        </div>
+      </div>
+
+      <!-- Diario Russo -->
+      <div class="img-grid-item">
+        <div class="image-part">
+          <a href="./review_text/Anna Politkovskaja/IT/Diario Russo.html" class="img-wrapper">
+            <span class="img italian all reportage">
+              <img src="./assets/books/Diariorusso_Anna.jpg" alt="Diario Russo - copertina del libro"/>
+            </span>
+          </a>
+        </div>
+        <div class="review-text-part">
+          <div class="menu-title">Diario Russo - Anna Politkovskaja</div>
+          <p>
+            Diario Russo, di Anna Politkovskaja, è una preziosa testimonianza di avvenimenti politici successi in Russia dall’8 
+            dicembre 2003 al 31 agosto 2005. Anna Politkovskaja riporta quotidianamente, su base rigorosamente documentaria, anni 
+            cruciali della ...
+          </p>
+          <a href="./review_text/Anna Politkovskaja/IT/Diario Russo.html" class="read-more"><span>continua a leggere</span></a>
+        </div>
+      </div>
+ 
+      <!-- Breasts and Eggs -->
+      <div class="img-grid-item">
+        <div class="image-part">
+          <a href="./review_text/Mieko Kawakami/EN/Breasts and Eggs.html" class="img-wrapper">
+            <span class="img english all japanese-literature literary-fiction">
+              <img src="./assets/books/Seni e uova.jpg" alt="Breasts and Eggs - book cover"/>
+            </span>
+          </a>
+        </div>
+        <div class="review-text-part">
+          <div class="menu-title">Breasts and Eggs - Mieko Kawakami</div>
+          <p>
+            Mieko Kawakami, a contemporary Japanese writer, first published her short story "Breasts and Eggs" 
+            (Chichi to Ran) in 2008. In 2019, she rewrote and extended the story, adding a second part set in 
+            2016, eight years after the original. The resulting book is a ...
+          </p>
+          <a href="./review_text/Mieko Kawakami/EN/Breasts and Eggs.html" class="read-more"><span>read more</span></a>
+        </div>
+      </div>
+
+      <!-- Seni e uova -->
+      <div class="img-grid-item">
+        <div class="image-part">
+          <a href="./review_text/Mieko Kawakami/IT/Seni e uova.html" class="img-wrapper">
+            <span class="img italian all japanese-literature literary-fiction">
+              <img src="./assets/books/Seni e uova.jpg" alt="Seni e uova - copertina del libro"/>
+            </span>
+          </a>
+        </div>
+        <div class="review-text-part">
+          <div class="menu-title">Seni e uova - Mieko Kawakami</div>
+          <p>
+            La scrittrice giapponese contemporanea Mieko Kawakami ha pubblicato per la prima volta nel 2008 il breve racconto 
+            "Seni e Uova" (Chichi to Ran). Nel 2019, ha trasformato il racconto in un romanzo, riscrivendolo ed estendendolo 
+            con ...
+          </p>
+          <a href="./review_text/Mieko Kawakami/IT/Seni e uova.html" class="read-more"><span>continua a leggere</span></a>
+        </div>
+      </div>
+
+      <!-- Spring Snow -->
+      <div class="img-grid-item">
+        <div class="image-part">
+          <a href="./review_text/Yukio Mishima/EN/Spring Snow.html" class="img-wrapper">
+            <span class="img english all japanese-literature literary-fiction">
+              <img src="./assets/books/Spring snow - Mishima.jpg" alt="Spring Snow - book cover"/>
+            </span>
+          </a>
+        </div>
+        <div class="review-text-part">
+          <div class="menu-title">Spring Snow - Yukio Mishima</div>
+          <p>
+            “Just now I had a dream. I’ll see you again. I know it. Beneath the falls.”[…] Two days after his 
+            return to Tokyo, Kiyoaki Matsugae died at the age of twenty.” Kiyoaki Matsugae is a beautiful and 
+            delicate young man living in Tokyo with his family during the ...
+          </p>
+          <a href="./review_text/Yukio Mishima/EN/Spring Snow.html" class="read-more"><span>read more</span></a>
+        </div>
+      </div>
+
+      <!-- Neve di primavera -->
+      <div class="img-grid-item">
+        <div class="image-part">
+          <a href="./review_text/Yukio Mishima/IT/Neve di primavera.html" class="img-wrapper">
+            <span class="img italian all japanese-literature literary-fiction">
+              <img src="./assets/books/Spring snow - Mishima.jpg" alt="Neve di primavera - copertina del libro"/>
+            </span>
+          </a>
+        </div>
+        <div class="review-text-part">
+          <div class="menu-title">Neve di primavera - Yukio Mishima</div>
+          <p>
+            Siamo a Tokyo nei primi anni del novecento dopo la guerra russo-giapponese, sotto il regno dell’imperatore Taishō
+            (1879-1926). La famiglia dei marchesi Matsugae, nome che gode di grande stima, vive una vita benestante a Tokyo. 
+            La loro villa rappresenta ...
+          </p>
+          <a href="./review_text/Yukio Mishima/IT/Neve di primavera.html" class="read-more"><span>continua a leggere</span></a>
+        </div>
+      </div>
+
+      <!-- Runaway horses -->
+      <div class="img-grid-item">
+        <div class="image-part">
+          <a href="./review_text/Yukio Mishima/EN/Runaway horses.html" class="img-wrapper">
+            <span class="img english all japanese-literature literary-fiction">
+              <img src="./assets/books/Runaway horses - Mishima.jpg" alt="Runaway horses - book cover"/>
+            </span>
+          </a>
+        </div>
+        <div class="review-text-part">
+          <div class="menu-title">Runaway horses - Yukio Mishima</div>
+          <p>
+            “Isao drew in a deep breath and shut his eyes as he ran his left hand caressingly over his stomach. 
+            Grasping the knife with his right hand, he pressed its point against his body, and guided it to the 
+            correct place with the fingertips of his left hand. Then, with a ...
+          </p>
+          <a href="./review_text/Yukio Mishima/EN/Runaway horses.html" class="read-more"><span>read more</span></a>
+        </div>
+      </div>
+
+      <!-- Cavalli in fuga -->
+      <div class="img-grid-item">
+        <div class="image-part">
+          <a href="./review_text/Yukio Mishima/IT/Cavalli in fuga.html" class="img-wrapper">
+            <span class="img italian all japanese-literature literary-fiction">
+              <img src="./assets/books/Runaway horses - Mishima.jpg" alt="Cavalli in fuga - copertina del libro"/>
+            </span>
+          </a>
+        </div>
+        <div class="review-text-part">
+          <div class="menu-title">Cavalli in fuga - Yukio Mishima</div>
+          <p>
+            “Isao trasse un profondo respiro e chiuse gli occhi: prese a tastarsi l’addome con la mano sinistra e vi premette
+            contro la punta dell’arma, che teneva ben salda nell’altra mano; poi, dopo aver guidato la lama con le dita della
+            sinistra verso ...
+          </p>
+          <a href="./review_text/Yukio Mishima/IT/Cavalli in fuga.html" class="read-more"><span>continua a leggere</span></a>
+        </div>
+      </div>
+
+
+      <!-- The Temple of Dawn -->
+      <div class="img-grid-item">
+        <div class="image-part">
+          <a href="./review_text/Yukio Mishima/EN/Temple of dawn.html" class="img-wrapper">
+            <span class="img english all japanese-literature literary-fiction">
+              <img src="./assets/books/Temple of Dawn - Mishima.jpg" alt="The Temple of Dawn - book cover"/>
+            </span>
+          </a>
+        </div>
+        <div class="review-text-part">
+          <div class="menu-title">The Temple of Dawn - Yukio Mishima</div>
+          <p>
+            “Better to be caught in sudden, complete catastrophe than to be gnawed by the cancer of imagination.”
+            The story goes on and brings us to 1941. The third book opens with Honda on a business trip in Bangkok, 
+            Thailand, as a legal consultant. Once he ...
+          </p>
+          <a href="./review_text/Yukio Mishima/EN/Temple of dawn.html" class="read-more"><span>read more</span></a>
+        </div>
+      </div>
+
+      <!-- Il tempio dell’alba -->
+      <div class="img-grid-item">
+        <div class="image-part">
+          <a href="./review_text/Yukio Mishima/IT/tempio alba.html" class="img-wrapper">
+            <span class="img italian all japanese-literature literary-fiction">
+              <img src="./assets/books/Temple of Dawn - Mishima.jpg" alt="Il tempio dell’alba - copertina del libro"/>
+            </span>
+          </a>
+        </div>
+        <div class="review-text-part">
+          <div class="menu-title">Il tempio dell’alba - Yukio Mishima</div>
+          <p>
+            “Solo attraverso un mondo di illusioni viene data agli uomini la possibilità di raggiungere l’illuminazione.”
+            La storia prosegue e ci porta al 1941. Il terzo libro si apre con Honda in un viaggio d'affari a Bangkok, in 
+            Thailandia, in qualità di ...
+          </p>
+          <a href="./review_text/Yukio Mishima/IT/tempio alba.html" class="read-more"><span>continua a leggere</span></a>          
+        </div>
+      </div>
+      
+      <!-- The decay of the angel -->
+      <div class="img-grid-item">
+        <div class="image-part">
+          <a href="./review_text/Yukio Mishima/EN/decay of the angel.html" class="img-wrapper">
+            <span class="img english all japanese-literature literary-fiction">
+              <img src="./assets/books/The decay of the angel.jpg" alt="The decay of the angel - book cover"/>
+            </span>
+          </a>
+        </div>
+        <div class="review-text-part">
+          <div class="menu-title">The decay of the angel - Yukio Mishima</div>
+          <p>
+            “No, Mr. Honda, I have forgotten none of the blessings that were mine in the other world. But I fear
+            I have never heard the name Kiyoaki Matsugae. Don’t you suppose, Mr. Honda, that there never was such
+            a person?” The story jumps to the ...
+          </p>
+          <a href="./review_text/Yukio Mishima/EN/decay of the angel.html" class="read-more"><span>read more</span></a>
+        </div>
+      </div>
+
+      <!-- La decomposizione dell'angelo -->
+      <div class="img-grid-item">
+        <div class="image-part">
+          <a href="./review_text/Yukio Mishima/IT/decomposizione angelo.html" class="img-wrapper">
+            <span class="img italian all japanese-literature literary-fiction">
+              <img src="./assets/books/The decay of the angel.jpg" alt="La decomposizione dell'angelo - copertina del libro"/>
+            </span>
+          </a>
+        </div>
+        <div class="review-text-part">
+          <div class="menu-title">La decomposizione dell'angelo - Yukio Mishima</div>
+          <p>
+            “Tutto ciò che doveva fare era solo morire. Provò un certo orgoglio nel pensare che un vecchio, presto 
+            dimenticato, possedesse ancora, con la propria morte, una potentissima arma distruttiva. Non aveva nessuna 
+            paura dei ...
+          </p>
+          <a href="./review_text/Yukio Mishima/IT/decomposizione angelo.html" class="read-more"><span>continua a leggere</span></a>          
+        </div>
+      </div>
+
+      <!-- Il signore delle mosche -->
+      <div class="img-grid-item">
+        <div class="image-part">
+          <a href="./review_text/William Golding/IT/Il signore delle mosche.html" class="img-wrapper">
+            <span class="img italian all classics literary-fiction">
+              <img src="./assets/books/Il signore delle mosche.jpg" alt="Il signore delle mosche - copertina del libro"/>
+            </span>
+          </a>
+        </div>
+        <div class="review-text-part">
+          <div class="menu-title">Il signore delle mosche - William Golding</div>
+          <p>
+            “I due ragazzi erano uno di fronte all’altro e si guardavano. Da una parte c’era il mondo brillante della
+            caccia, della tattica, dei giochi feroci e pieni di destrezza; dall’altra il mondo del senso comune, 
+            con le sue aspirazioni e con le sue ...
+          </p>
+          <a href="./review_text/William Golding/IT/Il signore delle mosche.html" class="read-more"><span>continua a leggere</span></a>
+        </div>
+      </div>
+
+      <!-- Lord of the flies -->
+      <div class="img-grid-item">
+        <div class="image-part">
+          <a href="./review_text/William Golding/EN/Lord of the flies.html" class="img-wrapper">
+            <span class="img english all classics literary-fiction">
+              <img src="./assets/books/Il signore delle mosche.jpg" alt="Lord of the flies - book cover"/>
+            </span>
+          </a>
+        </div>
+        <div class="review-text-part">
+          <div class="menu-title">Lord of the flies - William Golding</div>
+          <p>
+            “What are we? Humans? Or animals? Or savages? What’s grownups going to think?”
+            The students of an English private school survive a terrible plane crash and find themselves alone, 
+            without adults, on a tropical atoll. White and ...
+          </p>
+          <a href="./review_text/William Golding/EN/Lord of the flies.html" class="read-more"><span>read more</span></a>          
+        </div>
+      </div>
+
+      <!-- Niente e così sia -->
+      <div class="img-grid-item">
+        <div class="image-part">
+          <a href="./review_text/Oriana Fallaci/IT/Niente e cosi sia.html" class="img-wrapper">
+            <span class="img italian all biography reportage">
+              <img src="./assets/books/Oriana Fallaci - Niente e cosi sia.jpg" alt="Niente e così sia - copertina del libro"/>
+            </span>
+          </a>
+        </div>
+        <div class="review-text-part">
+          <div class="menu-title">Niente e così sia - Oriana Fallaci</div>
+          <p>
+            “Io sono qui per capire gli uomini, cosa pensa e cosa cerca un uomo che ammazza un altro uomo che a sua 
+            volta lo ammazza. Sono qui per provare qualcosa a cui credo: che la guerra è inutile e sciocca, la più 
+            bestiale prova di ...
+          </p>
+          <a href="./review_text/Oriana Fallaci/IT/Niente e cosi sia.html" class="read-more"><span>continua a leggere</span></a>
+        </div>
+      </div>
+
+      <!-- Nothing, and So Be It -->
+      <div class="img-grid-item">
+        <div class="image-part">
+          <a href="./review_text/Oriana Fallaci/EN/Nothing and so be it.html" class="img-wrapper">
+            <span class="img english all biography reportage">
+              <img src="./assets/books/Oriana Fallaci - Niente e cosi sia.jpg" alt="Nothing, and So Be It - book cover"/>
+            </span>
+          </a>
+        </div>
+        <div class="review-text-part">
+          <div class="menu-title">Nothing, and So Be It - Oriana Fallaci</div>
+          <p>
+            In November 1967, journalist Oriana Fallaci embarks on a harrowing journey to 
+            Saigon as a war correspondent for the journal L’Europeo. She quests for answers to profound questions,
+            including the one posed by her ...
+          </p>
+          <a href="./review_text/Oriana Fallaci/EN/Nothing and so be it.html" class="read-more"><span>read more</span></a>          
+        </div>
+      </div>
+
+      
+ <!-- Non lasciarmi -->
+      <div class="img-grid-item">
+        <div class="image-part">
+          <a href="./review_text/Kazuo Ishiguro/IT/Non lasciarmi.html" class="img-wrapper">
+            <span class="img italian all literary-fiction">
+              <img src="./assets/books/Never let me go.jpg" alt="Non lasciarmi - copertina del libro"/>
+            </span>
+          </a>
+        </div>
+        <div class="review-text-part">
+          <div class="menu-title">Non lasciarmi - Kazuo Ishiguro</div>
+          <p>
+            “Perché forse, in un certo senso, non ci eravamo lasciati alle spalle quello che ritenevamo 
+            di aver abbandonato. Perché, sotto sotto, una parte di noi rimase sempre così: timorosa del 
+            mondo intorno e – non importa quanto ci disprezzassimo per questo – incapaci di staccarci 
+            l'uno dall'altra.” <br> <br>
+            Kathy ha trentuno anni e fa la badante da ...
+          </p>
+          <a href="./review_text/Kazuo Ishiguro/IT/Non lasciarmi.html" class="read-more"><span>continua a leggere</span></a>
+        </div>
+      </div>
+
+      <!-- Never let me go -->
+      <div class="img-grid-item">
+        <div class="image-part">
+          <a href="./review_text/Kazuo Ishiguro/EN/Never Let me go.html" class="img-wrapper">
+            <span class="img english all literary-fiction">
+              <img src="./assets/books/Never let me go.jpg" alt="Never let me go - book cover"/>
+            </span>
+          </a>
+        </div>
+        <div class="review-text-part">
+          <div class="menu-title">Never let me go - Kazuo Ishiguro</div>
+          <p>
+             “Because maybe, in a way, we didn't leave it behind nearly as much as we might once have thought.
+            Because somewhere underneath, a part of us stayed like that: fearful of the world around us, and no
+            matter how much we despised ourselves for it--unable quite to let each other go.” <br> <br>
+            Kathy is thirty-one years old and has been a carer for ...
+          </p>
+          <a href="./review_text/Kazuo Ishiguro/EN/Never Let me go.html" class="read-more"><span>read more</span></a>          
+        </div>
+      </div>
+
+
+
+
+
+
+      
+
+
+      
+    </div>
+
+    <footer>
+      <p class="footer-text">&copy; Two Thinking Monkeys 2022</p>
+    </footer>
+
+    <script src="/js/reviews.js"></script>
+
+  </body>
+
+</html>

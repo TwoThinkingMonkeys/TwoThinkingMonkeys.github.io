@@ -1,0 +1,146 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
+/* Image Home Page */
+
+.header-image {
+	background: linear-gradient(rgba(114, 44, 44, 0.5), rgba(17, 13, 82, 0.5)), url(../assets/images8.jpg) no-repeat;
+	background-position: 62% 22%; 
+	object-fit: cover;
+	text-align: center;
+	height: 100vh;
+}
+
+/* Presentation statement */
+
+#name_page {
+	font-size: 4em;
+	color: white;
+	background: transparent;
+	margin-top: 2.5em;
+	font-weight: bold;
+	margin-bottom: 0.3em;
+	padding: 0;
+}
+
+#quote_page {
+	padding: 0;
+	margin: 0;
+	font-size: 1.4em;
+	color: white;
+	background: transparent;
+}
+
+/* Navbar */
+
+.navbar {
+	padding: 0;
+	margin: 0;
+	position: relative;
+	background: rgba(47,47,47,1);
+}
+
+#navlist {
+	list-style: none;
+	padding: 0;
+	margin:0;
+	display: flex;
+	background: rgba(47,47,47,1);  
+}
+
+.space {
+	padding: 0em 9em;
+}
+
+.navelem {
+	flex: auto;
+	padding: 1.2em;
+	text-align: center;
+}
+
+#navlist li a {
+	font-size: 20px;
+	color: white;
+	text-decoration: none;
+}
+
+#navlist li a:hover {
+	color: rgb(95, 102, 189);
+}
+
+#toggle-nav {
+	display: none;
+	margin: auto;
+	cursor: pointer;
+}
+
+/* Footer */
+
+#footer_copyright {
+	padding-top: 12em;
+	color: white;
+	margin: 50px 0;
+}
+
+
+/* RESPONSIVE CSS */
+
+@media (max-width: 1200px) {
+
+.space {
+	padding: 0em 5em;
+}
+
+}
+
+@media (max-width: 910px) {
+
+	.space {
+		padding: 0em 1.5em;
+	}
+	
+}
+
+@media (max-width: 648px) {
+
+	#footer_copyright {padding-top: 10em;}
+
+} 
+
+@media (max-width: 527px) {
+
+	#footer_copyright {padding-top: 9em;}
+
+} 
+
+@media ( max-width: 500px ) { 
+
+	.navbar {
+		padding: 1.6em;
+	}
+
+	#navlist {
+		flex-direction: column;
+		display: none;
+	}
+
+	#toggle-nav {
+		display: block;
+		color: white;
+	}
+
+}
+
+@media ( max-width: 450px ) { 
+
+	#name_page {
+		font-size: 3em;
+	}
+	
+	#quote_page {
+		font-size: 1em;
+	}
+
+}
